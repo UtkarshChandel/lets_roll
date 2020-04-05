@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lets_roll/static/css/main.06da4658.chunk.css",
+    "main.js": "/lets_roll/static/js/main.be649280.chunk.js",
+    "main.js.map": "/lets_roll/static/js/main.be649280.chunk.js.map",
+    "runtime-main.js": "/lets_roll/static/js/runtime-main.71a0f2ed.js",
+    "runtime-main.js.map": "/lets_roll/static/js/runtime-main.71a0f2ed.js.map",
+    "static/js/2.5afc67d1.chunk.js": "/lets_roll/static/js/2.5afc67d1.chunk.js",
+    "static/js/2.5afc67d1.chunk.js.map": "/lets_roll/static/js/2.5afc67d1.chunk.js.map",
+    "index.html": "/lets_roll/index.html",
+    "precache-manifest.3d53a10df7acfa20557c21e083970cdc.js": "/lets_roll/precache-manifest.3d53a10df7acfa20557c21e083970cdc.js",
+    "service-worker.js": "/lets_roll/service-worker.js",
+    "static/css/main.06da4658.chunk.css.map": "/lets_roll/static/css/main.06da4658.chunk.css.map",
+    "static/js/2.5afc67d1.chunk.js.LICENSE.txt": "/lets_roll/static/js/2.5afc67d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71a0f2ed.js",
+    "static/js/2.5afc67d1.chunk.js",
+    "static/css/main.06da4658.chunk.css",
+    "static/js/main.be649280.chunk.js"
+  ]
+}
