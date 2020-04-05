@@ -12,6 +12,7 @@ export default class RollDice extends Component {
     this.state = {
       die1: "one",
       die2: "one",
+      isRolling: false,
     };
     this.roll = this.roll.bind(this);
   }
@@ -23,7 +24,12 @@ export default class RollDice extends Component {
     const newDie2 = this.props.sides[
       Math.floor(Math.random() * this.props.sides.length)
     ];
-    this.setState({ die1: newDie1, die2: newDie2 });
+    this.setState({ die1: newDie1, die2: newDie2, isRolling: true });
+    //wait one second then set rolling to false
+
+    setTimeout(() => {
+      this.setState({ isRolling: false });
+    }, 1000);
   }
 
   render() {
@@ -33,7 +39,9 @@ export default class RollDice extends Component {
           <Die face={this.state.die1} />
           <Die face={this.state.die2} />
         </div>
-        <button onClick={this.roll}>Roll Dice</button>
+        <button onClick={this.roll} disabled={this.state.isRolling}>
+          {this.state.isRolling ? "Rolling" : "Roll Dice"}
+        </button>
       </div>
     );
   }
